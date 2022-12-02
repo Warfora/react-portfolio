@@ -3,7 +3,6 @@ import "./AboutContentStyles.css"
 import React from 'react'
 import {Link} from 'react-router-dom'
 import me1 from "../assets/me1.jpg"
-import me2 from "../assets/me2.jpg"
 
 const AboutContent = () => {
   return (

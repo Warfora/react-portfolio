@@ -1,50 +1,50 @@
 export const SliderData = [
     {
-      image:
+        umugu:
         'https://iili.io/HqqvLQ4.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/HqqviTG.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqqvsjf.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/HqqvD4S.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqqvm37.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/HqqhbOQ.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq8Ca1.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq8oyg.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq8f6B.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq8KGV.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq8FCQ.png'
     },
     {
-      image:
+        umugu:
         'https://iili.io/Hqq82Zx.png'
     }
   ];

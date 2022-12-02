@@ -8,10 +8,12 @@ import ImageSlider from "../components/ImageSlider";
 import {Link} from 'react-router-dom'
 
 import { SliderData } from '../components/SliderData'
+import ScrollToTop from 'react-scroll-to-top';
 
 const Project = () => {
   return (
     <div>
+      <ScrollToTop smooth top="20"/>
       <Navbar/>
       <Heroimg4 heading="PROJECTS." text="My most recent works"/>
       <ImageSlider slides={SliderData}/>

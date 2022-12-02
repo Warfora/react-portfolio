@@ -14,6 +14,7 @@ const Project = () => {
       <Navbar/>
       <Heroimg4 heading="PROJECTS." text="My most recent works"/>
       <ImageSlider slides={SliderData}/>
+      <img className="campfire2" src="https://iili.io/Hqq8n8F.png" alt="campfire2"/>
       <Footer/>
     </div>
   )

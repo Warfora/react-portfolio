@@ -70,3 +70,37 @@
     transition-duration: 1s;
     transform: scale(1.08);
   }
+
+  .campfire{
+    height: auto;
+    width: 10%;
+    position: static;
+    bottom: 0;
+    right: 0;
+  }
+
+  @media screen and (max-width: 1040px){
+    .campfire{
+      height: 30%;
+      width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      align-items: center;
+      align-items: center;
+      position: relative;
+    }
+}
+
+.campfire2{
+  height: 40%;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  align-items: center;
+  align-items: center;
+  position: relative;
+}

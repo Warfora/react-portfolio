@@ -15,7 +15,7 @@ const Heroimg = () => {
             <img className = "intro-igm" src={Introimg} alt ="Introimg"/>
         </div>
         <div className ="content">
-            <p>hehee tää toimii</p>
+            <p>Hi, I'm fellow</p>
 
             <h1>
               <span>

@@ -15,6 +15,13 @@ const AboutContent = () => {
                Aside from that I'm interested in using Python for various projects. 
                3D modeling and graphics design are also a part of my interest.
             </p>
+            <p>Technologies I've worked with: 
+                <br/>C#, Unity
+                <br/>React JS, HTML, css
+                <br/>Python, Anaconda, Pygame
+                <br/>Github, Netlify, Trello
+                <br/>Blender, Rhino 7, Photoshop
+            </p>
             <br></br>
             <Link to="/contact">
                 <button className="btn">

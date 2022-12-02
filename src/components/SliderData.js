@@ -46,5 +46,9 @@ export const SliderData = [
     {
         umugu:
         'https://iili.io/Hqq82Zx.png'
+    },
+    {
+        umugu:
+        'https://iili.io/HqoTRP2.png'
     }
   ];

@@ -24,7 +24,7 @@ const Heroimg = () => {
                   fontFamily:"Red Hat Display",
                   color: "#F3D56",
                   fontWeight: 500,
-                  fontSize: "1.5em",
+                  fontSize: "1.3em",
                 }}
                 startDelay={500}
                 cursorColor="#3F3D56"

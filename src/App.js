@@ -7,10 +7,17 @@ import Contact from "./routes/Contact"
 
 import{ Route, Routes} from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>My Portfolio :)</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+      <meta name="description" content="Portfolio" />
+    </Helmet>
     <ScrollToTop/>
     <Routes>
       <Route path="/" element={<Home />}/>

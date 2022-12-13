@@ -17,6 +17,7 @@ const Project = () => {
       <Navbar/>
       <Heroimg4 heading="PROJECTS." text="My most recent works"/>
       <ImageSlider slides={SliderData}/>
+      <br/><br/>
       <div className="linking">
       <Link to="/about">
                 <button className="btn">

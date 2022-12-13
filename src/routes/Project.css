@@ -8,65 +8,105 @@
   height: 100%;
 }
 
-.slider {
+  @media screen and (min-width: 1241px){
+    .slider {
+      position: relative;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width: 1240px){
+  .slider {
     position: relative;
-    height: 100vh;
+    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+}
+
+@media screen and (max-width: 640px){
+  .slider {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1241px){
   .umugu {
     width: 1000px;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 20px;
   }
-  
+}
+
+  @media screen and (max-width: 1240px){
+    .umugu {
+      width: 500px;
+      height: 300px;
+      border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+  .umugu {
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 1140px){
   .right-arrow {
     position: absolute;
-    top: 50%;
+    top: 42%;
     right: 32px;
     font-size: 3rem;
-    color: #fff;
+    color: #D8BFD8;
     z-index: 10;
     cursor: pointer;
     user-select: none;
   }
-
-  @media screen and (max-width: 1040px){
-    .right-arrow {
-      position: absolute;
-      top: 50%;
-      right: 32px;
-      font-size: 3rem;
-      color: #000;
-      z-index: 10;
-      cursor: pointer;
-      user-select: none;
-    }
-    }
   
   .left-arrow {
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 32px;
     font-size: 3rem;
-    color: #fff;
+    color: #D8BFD8;
     z-index: 10;
     cursor: pointer;
     user-select: none;
   }
+}
 
-  @media screen and (max-width: 1040px){
-    .left-arrow {
-      position: absolute;
-      top: 50%;
-      left: 32px;
-      font-size: 3rem;
-      color: #000;
-      z-index: 10;
-      cursor: pointer;
-      user-select: none;
+@media screen and (min-width: 1140px){
+  .right-arrow {
+    position: absolute;
+    top: 45%;
+    right: 32px;
+    font-size: 3rem;
+    color: #D8BFD8;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 45%;
+    left: 32px;
+    font-size: 3rem;
+    color: #D8BFD8;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
   }
 }
   

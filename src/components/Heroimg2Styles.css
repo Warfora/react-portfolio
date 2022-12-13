@@ -5,62 +5,49 @@
     position: relative;
 }
 
-@media screen and (min-width: 1701px){
+@media screen and (min-width: 0px){
     .hero-img::before{
         content: "";
-        background: url("https://64.media.tumblr.com/842eacef47c0b3a638045f781f75dd30/tumblr_nehe7cb39x1rr2r12o1_400.gifv");
-        background-size: 110%;
-        background-position: center bottom;
-        height: 90%;
-        width: 50%;
-        position: absolute;
-        top: -0;
-        left: 30;
-        z-index: -1;
-    }
-}
-
-@media screen and (min-width: 1301px){
-    .hero-img2::before{
-        content: "";
-        background: url("https://media1.giphy.com/media/5xRW2cUKfcyQg/giphy.gif?cid=790b761137db6636b8f1124dbe2a1891a9924f1c3402646b&rid=giphy.gif&ct=s");
-        background-size: cover;
-        background-position: center bottom;
-        height: 100%;
-        width: 40%;
-        position: absolute;
-        top: -0;
-        left: -30;
-        z-index: -1;
-    }
-}
-
-@media screen and (min-width: 1301px){
-    .hero-img3::before{
-        content: "";
-        background: url("https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif?cid=790b76118958cad768a71facfa3da0719f4ba5f08d6d47f2&rid=giphy.gif&ct=s");
-        background-size: cover;
-        background-position: center bottom;
-        height: 120%;
-        width: 40%;
-        position: absolute;
-        top: -20;
-        left: -30;
-        z-index: -1;
-    }
-}
-
-@media screen and (max-width: 640px){
-    .hero-img::before, .hero-img2::before, .hero-img3::before{
-        content: "";
-        background: url("https://64.media.tumblr.com/842eacef47c0b3a638045f781f75dd30/tumblr_nehe7cb39x1rr2r12o1_400.gifv");
-        background-size: cover;
+        background: url("https://64.media.tumblr.com/842eacef47c0b3a638045f781f75dd30/tumblr_nehe7cb39x1rr2r12o1_400.gifv") no-repeat;;
+        background-size: contain;
         background-position: cover;
         height: 90%;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: -0;
         left: 30;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 0px){
+    .hero-img2::before{
+        content: "";
+        background: url("https://media1.giphy.com/media/5xRW2cUKfcyQg/giphy.gif?cid=790b761137db6636b8f1124dbe2a1891a9924f1c3402646b&rid=giphy.gif&ct=s") no-repeat;
+        background-size: contain;
+        background-position: cover;
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        top: -0;
+        left: 30;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 0px){
+    .hero-img3::before{
+        content: "";
+        background: url("https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif?cid=790b76118958cad768a71facfa3da0719f4ba5f08d6d47f2&rid=giphy.gif&ct=s") no-repeat;
+        background-size: contain;
+        background-position: cover;
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        top: -0;
+        right: -20;
         z-index: -1;
         object-fit: cover;
     }

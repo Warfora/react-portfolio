@@ -19,7 +19,7 @@ const Heroimg = () => {
 
             <h1>
               <span>
-                <TypeWriterEffect 
+              <TypeWriterEffect 
                 textStyle={{
                   fontFamily:"Red Hat Display",
                   color: "#F3D56",

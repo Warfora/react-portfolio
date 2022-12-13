@@ -47,12 +47,21 @@
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) and (min-width: 541px){
     .right .img{
         max-width: 1000%;
         border: 1px solid #333;
         position: relative;
-        right: 50px;
+        right: 90px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .right .img{
+        max-width: 1000%;
+        border: 1px solid #333;
+        position: relative;
+        right: 80px;
     }
 }
 

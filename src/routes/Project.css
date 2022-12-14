@@ -8,7 +8,7 @@
   height: 100%;
 }
 
-  @media screen and (min-width: 1241px){
+  @media screen and (min-width: 1441px){
     .slider {
       position: relative;
       height: 60vh;
@@ -18,10 +18,10 @@
     }
 }
 
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 1440px){
   .slider {
     position: relative;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;

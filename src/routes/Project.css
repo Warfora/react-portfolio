@@ -8,7 +8,7 @@
   height: 100%;
 }
 
-  @media screen and (min-width: 1441px){
+  @media screen and (min-width: 1941px){
     .slider {
       position: relative;
       height: 60vh;
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1940px){
   .slider {
     position: relative;
     height: 40vh;

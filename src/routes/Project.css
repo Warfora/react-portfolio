@@ -21,7 +21,7 @@
 @media screen and (max-width: 1940px){
   .slider {
     position: relative;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;

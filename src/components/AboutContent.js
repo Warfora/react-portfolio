@@ -16,7 +16,7 @@ const AboutContent = () => {
                3D modeling and graphics design are also a part of my interest.
             </p>
             <p>Technologies I've worked with: 
-                <br/>C#, Unity
+                <br/>C#, Unity, Visual Studio
                 <br/>React JS, HTML, css
                 <br/>Python, Anaconda, Pygame
                 <br/>Github, Netlify, Trello

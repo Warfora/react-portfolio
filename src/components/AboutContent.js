@@ -17,7 +17,7 @@ const AboutContent = () => {
             </p>
             <p>Technologies I've worked with: 
                 <br/>C#, Unity, Visual Studio
-                <br/>React JS, HTML, css
+                <br/>React, Node.js, JavaScript
                 <br/>Python, Anaconda, Pygame
                 <br/>Github, Netlify, Trello
                 <br/>Blender, Rhino 7, Photoshop

@@ -7,6 +7,7 @@ import Heroimg4 from "../components/Heroimg4";
 import ImageSlider from "../components/ImageSlider";
 import {Link} from 'react-router-dom'
 
+import Projects2 from "../components/Projects2";
 import { SliderData } from '../components/SliderData'
 import ScrollToTop from 'react-scroll-to-top';
 
@@ -16,7 +17,7 @@ const Project = () => {
       <ScrollToTop smooth top="20"/>
       <Navbar/>
       <Heroimg4 heading="PROJECTS." text="My most recent works"/>
-      <ImageSlider slides={SliderData}/>
+      <Projects2/>
       <br/><br/>
       <div className="linking">
       <Link to="/about">
@@ -29,5 +30,7 @@ const Project = () => {
     </div>
   )
 }
+
+/*<ImageSlider slides={SliderData}/>**/
 
 export default Project;

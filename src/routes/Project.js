@@ -4,11 +4,9 @@ import "./Project.css"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Heroimg4 from "../components/Heroimg4";
-import ImageSlider from "../components/ImageSlider";
 import {Link} from 'react-router-dom'
 
 import Projects2 from "../components/Projects2";
-import { SliderData } from '../components/SliderData'
 import ScrollToTop from 'react-scroll-to-top';
 
 const Project = () => {

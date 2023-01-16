@@ -132,7 +132,7 @@ const Projects = () => {
     },
     {
         title: 'This Portfolio site',
-        desc: `Own portfolio site using mainly react and node.js. Made during school's react course as a final project.`,
+        desc: `Own portfolio site using mainly react and node.js. Made during school's react course as a final project. Deployed throught Netlify.com.`,
         title2:'https://github.com/Warfora/react-portfolio.git',
         tech: 'React, Node.js, Javascript, HTML, CSS',
         image_url: gato_img

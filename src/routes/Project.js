@@ -14,7 +14,7 @@ const Project = () => {
     <div>
       <ScrollToTop smooth top="20"/>
       <Navbar/>
-      <Heroimg4 heading="PROJECTS." text="My most recent works"/>
+      <Heroimg4 heading="PROJECTS AND STUDIES." text="My most recent works and courses"/>
       <Projects2/>
       <br/><br/>
       <div className="linking">

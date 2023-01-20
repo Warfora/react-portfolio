@@ -18,6 +18,8 @@ import robsim_img from "../assets/tb2.png";
 import snake_img from "../assets/tb4.png";
 import mobile_img from "../assets/tb3.png";
 import gato_img from "../assets/tb5.png";
+import highway_img from "../assets/highway.png";
+import cer_img from "../assets/cer.png";
 
 function Project({ title, title2, desc, tech, colorMode, image_url }) {
   return (
@@ -100,11 +102,25 @@ const Projects = () => {
   const { colorMode } = useColorMode();
   const projects = [
     {
+      title: 'OAMK highway',
+      desc: `An information technology course, which includes: introduction to programming, databases and interfaces, and the possibilities of social media at work and in free time. Throught this course I will be able to continue studies in OAMK.`,
+      title2: '',
+      tech: 'C, JavaScript',
+      image_url: highway_img,
+    },
+    {
       title: 'Autorunner',
       desc: `OSAO's second year's last project. Unity game made with a team of four, and later presented at Vectorama 2022. The player has to avoid obstacles and get coins while speed is increasing with time.`,
       title2: 'Itch.io: https://jesuli.itch.io/one-way-forward',
       tech: 'C#, Visual Studio, Unity, SharedLab, HLSL',
       image_url: autorunner_img,
+    },
+    {
+      title: 'Elements of AI',
+      desc: `AI course from university of Helsinki, that introduces to artificial intelligence and its building using Python. Completed first part regarding theory, and currently studying the second part of actual programming.`,
+      title2: '',
+      tech: 'Python, AI',
+      image_url: cer_img,
     },
     {
         title: 'Robbery Simulator',
@@ -125,8 +141,8 @@ const Projects = () => {
         image_url: tetriz_img
     },
     {
-        title: 'Raspberry Pi Case',
-        desc: `A project regarding school's 3D modeling course. Made 3D model of a case for my raspberry pi using Rhino program, and later printed it via resin printer.`,
+        title: '3D printing course',
+        desc: `On the picture 3D modeled case for Raspberry Pi, which was later printed via resin printer. Currently also working on customer's project regarding jewelry press.`,
         tech: 'Rhino, Chitubox',
         image_url: mobile_img
     },

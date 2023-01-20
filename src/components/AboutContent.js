@@ -11,10 +11,9 @@ const AboutContent = () => {
             <h1>Who am I?</h1>
             <br></br>
             <p>I'm a software developer student from OSAO and soon to be high school graduate from Oulu.
-               I have been working a bit on game development and web development. 
-               Aside from that I'm interested in using Python for various projects. 
-               3D modeling and graphics design are also a part of my interest.
+               Been working on game development and web development, and own projects as well. Regarding design, I have been in UX/UI team as a trainee at F-Secure.
             </p>
+
             <p>Technologies I've worked with: 
                 <br/>C#, Unity, Visual Studio
                 <br/>React, Node.js, JavaScript

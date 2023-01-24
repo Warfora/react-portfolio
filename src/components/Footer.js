@@ -2,7 +2,7 @@ import "./FooterStyles.css";
 
 import React from 'react';
 
-import {FaHome, FaPhone, FaMailBulk, FaArtstation} from "react-icons/fa";
+import {FaHome, FaPhone, FaMailBulk, FaArtstation, FaLinkedin, FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="location">
                     <FaHome size={20} style={{color:"#fff", marginRight: "2rem" }}/>
                     <div>
-                        <p>Oulu, 90230</p>
+                        <p>Oulu, 90520</p>
                         <p>Finland</p>
                     </div>
                 </div>
@@ -31,8 +31,10 @@ const Footer = () => {
                 <p>Katarina Semjonova.</p>
                 <div className="social">
                 <br></br>
+                <p>Links on the contact page.</p>
+                <FaGithub size={30} style={{color:"#fff", marginRight: "1rem" }}/>
+                <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem" }}/>
                 <FaArtstation size={30} style={{color:"#fff", marginRight: "1rem" }}/>
-                <p>ArtStation / artstation.com/u8c4c659a</p>
                 </div>
             </div>
         </div>

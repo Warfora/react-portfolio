@@ -14,6 +14,7 @@ import {
 } from '@chakra-ui/react';
 import nokia_img from "../assets/nokia.png";
 import f_secure_img from "../assets/f_secure.png";
+import niemi_img from "../assets/niemi.png";
 
 function Project({ title, title2, desc, tech, colorMode, image_url }) {
   return (
@@ -95,6 +96,13 @@ function Project({ title, title2, desc, tech, colorMode, image_url }) {
 const Projects = () => {
   const { colorMode } = useColorMode();
   const projects = [
+    {
+      title: 'Mover/Transformer',
+      desc: `After a long period of sedentary work in programming, I'm taking a break to engage in physical work as a mover at Niemi's moving and logistics services`,
+      title2: '',
+      tech: 'Physical fitness',
+      image_url: niemi_img,
+    },
     {
       title: 'Nokia Trainee',
       desc: `9-month traineeship at Nokia where I mostly improved my team's Jenkins test automation jobs and added new features using DSL, Groovy and Bash scripting. Later been working on test cases and refactoring code using Python.`,

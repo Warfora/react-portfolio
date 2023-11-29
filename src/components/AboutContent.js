@@ -10,15 +10,15 @@ const AboutContent = () => {
         <div className="left">
             <h1>Who am I?</h1>
             <br></br>
-            <p>I'm a software developer student from OSAO and soon to be high school graduate from Oulu.
-               Been working on game development and web development, and own projects as well. Regarding design, I have been in UX/UI team as a trainee at F-Secure.
+            <p>I'm a software developer student from OSAO and young code enthusiast from Oulu. Soon will be starting engineering studies in university of applied sciences OAMK. 
+            <br/>Recently been working on test automation with Python at Nokia. Still deciding which IT career direction I'm going to pursue.
             </p>
 
             <p>Technologies I've worked with: 
-                <br/>C#, Unity, Visual Studio
+                <br/>Python, Github, Anaconda
+                <br/>Jenkins, Bash, Groovy
                 <br/>React, Node.js, JavaScript
-                <br/>Python, Anaconda, Pygame
-                <br/>Github, Netlify, Trello
+                <br/>C#, Unity, Visual Studio
                 <br/>Blender, Rhino 7, Photoshop
             </p>
             <br></br>

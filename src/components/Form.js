@@ -9,11 +9,11 @@ import {FaArtstation, FaLinkedin, FaGithub} from "react-icons/fa";
 
 /* Laitan myöhemmin järkevästi props käyttäen nää funktiot */
 function Open(){
-  window.open('https://www.linkedin.com/in/katarina-semjonova-b05a57230/', '_blank', 'noreferrer');
+  window.open('https://www.linkedin.com/in/katarina-semjonova-964256293/', '_blank', 'noreferrer');
 }
 
 function Open2(){
-  window.open('https://github.com/Warfora', '_blank', 'noreferrer');
+  window.open('https://github.com/Warfora/react-portfolio', '_blank', 'noreferrer');
 }
 
 function Open3(){
@@ -63,11 +63,11 @@ const Form = () => {
            Contact me directly.
           </p>
           <label>Your Name</label>
-          <input ref={inputs} type="text" name="user_name" />
+          <input ref={inputs} type="text" placeholder="First and last name" name="user_name" />
           <label>Email</label>
-          <input ref={inputs1} type="email" name="user_email" />
+          <input ref={inputs1} type="email" placeholder="Personal or work email" name="user_email" />
           <label>Subject</label>
-          <input ref={inputs2} type="text" name="user_subject"/>
+          <input ref={inputs2} type="text" placeholder="Subject of the matter" name="user_subject"/>
           <label>Message</label>
           <textarea ref={inputs3} rows ="6" placeholder="Type your message here" name="message" />
           <input className="btn" type="submit" value="Submit" />

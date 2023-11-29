@@ -14,7 +14,7 @@ const About = () => {
     <div>
       <ScrollToTop smooth top="20" />
       <Navbar/>
-      <Heroimg3 heading="ABOUT." text="Don't mind the cat :)"/>
+      <Heroimg3 heading="ABOUT." text="Don't mind the cat"/>
       <AboutContent/>
       <Footer/>
     </div>

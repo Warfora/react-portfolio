@@ -31,7 +31,7 @@ const Footer = () => {
                 <p>Katarina Semjonova.</p>
                 <div className="social">
                 <br></br>
-                <p>Links on the contact page.</p>
+                <p>Links at the bottom on the contact page.</p>
                 <FaGithub size={30} style={{color:"#fff", marginRight: "1rem" }}/>
                 <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem" }}/>
                 <FaArtstation size={30} style={{color:"#fff", marginRight: "1rem" }}/>
